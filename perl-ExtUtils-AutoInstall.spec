@@ -11,7 +11,7 @@ Name:		perl-ExtUtils-AutoInstall
 Version:	0.56
 Release:	1
 # same as perl
-License:	GPL or Artistic
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	2c8d658b6c3bbaddfde0dc08c0d0251f

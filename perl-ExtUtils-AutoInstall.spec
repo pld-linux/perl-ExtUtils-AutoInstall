@@ -49,7 +49,7 @@ godnych uwagi w³a¶ciwo¶ci to:
 - Korzystanie z CPAN.pm do instalacji zale¿no¶ci w przypadku u¿ycia
   spoza pow³oki cpan.
 - Automatyczne w³±czanie/wy³±czanie stowarzyszonych testów.
-- Podanie UNINST=1, gdy jest to bezpieczne i przwdopodobnie potrzebne.
+- Podanie UNINST=1, gdy jest to bezpieczne i prawdopodobnie potrzebne.
 - Sprawdzenie MANIFEST, aby unikn±æ niepotrzebnego przeszukiwania
   EXE_FILES.
 - Wykorzystanie CPANPLUS i/lub Sort::Versions, gdy jest to mo¿liwe.

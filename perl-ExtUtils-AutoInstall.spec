@@ -1,6 +1,6 @@
 #
 # Conditional build:
-# _with_tests - perform "make test"
+%bcond_with	tests	# perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	ExtUtils
@@ -21,7 +21,6 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-
 ExtUtils::AutoInstall Perl module lets module writers to specify a
 more sophisticated form of dependency information than the PREREQ_PM
 option offered by ExtUtils::MakeMaker.  Most notable features include:
@@ -38,7 +37,6 @@ option offered by ExtUtils::MakeMaker.  Most notable features include:
 - Take advantage of the 'sudo' command where available.
 
 %description -l pl
-
 Modu³ Perla ExtUtils::AutoInstall pozwala autorom modu³ów na
 udostêpnianie informacji o zale¿no¶ciach w bardziej wyszukanej formie,
 ni¿ opcja PREREQ_PM obs³ugiwana przez ExtUtils::MakeMaker. Wiêkszo¶æ
@@ -67,7 +65,7 @@ godnych uwagi w³a¶ciwo¶ci to:
 	INSTALLDIRS=vendor
 %{__make}
 
-%{?_with_tests:%{__make} test}
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT

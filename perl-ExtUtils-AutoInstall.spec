@@ -3,8 +3,8 @@
 %bcond_with	tests	# perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	ExtUtils
-%define	pnam	AutoInstall
+%define		pdir	ExtUtils
+%define		pnam	AutoInstall
 Summary:	ExtUtils::AutoInstall - automatic install of dependencies via CPAN
 Summary(pl):	ExtUtils::AutoInstall - automatyczna instalacja zale¿no¶ci z CPAN
 Name:		perl-ExtUtils-AutoInstall

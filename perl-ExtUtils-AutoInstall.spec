@@ -6,7 +6,7 @@
 %define		pdir	ExtUtils
 %define		pnam	AutoInstall
 Summary:	ExtUtils::AutoInstall - automatic install of dependencies via CPAN
-Summary(pl):	ExtUtils::AutoInstall - automatyczna instalacja zaleøno∂ci z CPAN
+Summary(pl.UTF-8):   ExtUtils::AutoInstall - automatyczna instalacja zale≈ºno≈õci z CPAN
 Name:		perl-ExtUtils-AutoInstall
 Version:	0.61
 Release:	1
@@ -36,26 +36,26 @@ option offered by ExtUtils::MakeMaker.  Most notable features include:
 - Offers check-only and install-only Makefile targets.
 - Take advantage of the 'sudo' command where available.
 
-%description -l pl
-Modu≥ Perla ExtUtils::AutoInstall pozwala autorom modu≥Ûw na
-udostÍpnianie informacji o zaleøno∂ciach w bardziej wyszukanej formie,
-niø opcja PREREQ_PM obs≥ugiwana przez ExtUtils::MakeMaker. WiÍkszo∂Ê
-godnych uwagi w≥a∂ciwo∂ci to:
+%description -l pl.UTF-8
+Modu≈Ç Perla ExtUtils::AutoInstall pozwala autorom modu≈Ç√≥w na
+udostƒôpnianie informacji o zale≈ºno≈õciach w bardziej wyszukanej formie,
+ni≈º opcja PREREQ_PM obs≈Çugiwana przez ExtUtils::MakeMaker. Wiƒôkszo≈õƒá
+godnych uwagi w≈Ça≈õciwo≈õci to:
 
-- Umoøliwienie uøytkownikom na w≥±czanie/wy≥±czanie zaleøno∂ci
+- Umo≈ºliwienie u≈ºytkownikom na w≈ÇƒÖczanie/wy≈ÇƒÖczanie zale≈ºno≈õci
   opcjonalnych.
-- Wsparcie dla warto∂ci domy∂lnych otrzymywanych poprzez sprawdzenie
-  w≥a∂ciwo∂ci maszyny.
-- Korzystanie z CPAN.pm do instalacji zaleøno∂ci w przypadku uøycia
-  spoza pow≥oki cpan.
-- Automatyczne w≥±czanie/wy≥±czanie stowarzyszonych testÛw.
+- Wsparcie dla warto≈õci domy≈õlnych otrzymywanych poprzez sprawdzenie
+  w≈Ça≈õciwo≈õci maszyny.
+- Korzystanie z CPAN.pm do instalacji zale≈ºno≈õci w przypadku u≈ºycia
+  spoza pow≈Çoki cpan.
+- Automatyczne w≈ÇƒÖczanie/wy≈ÇƒÖczanie stowarzyszonych test√≥w.
 - Podanie UNINST=1, gdy jest to bezpieczne i prawdopodobnie potrzebne.
-- Sprawdzenie MANIFEST, aby unikn±Ê niepotrzebnego przeszukiwania
+- Sprawdzenie MANIFEST, aby uniknƒÖƒá niepotrzebnego przeszukiwania
   EXE_FILES.
-- Wykorzystanie CPANPLUS i/lub Sort::Versions, gdy jest to moøliwe.
-- UdostÍpnienie celÛw Makefile.PL check-only i skip-all.
-- UdostÍpnienie celÛw Makefile check-only i install-only.
-- Wykorzystanie polecenia 'sudo', gdy jest ono dostÍpne.
+- Wykorzystanie CPANPLUS i/lub Sort::Versions, gdy jest to mo≈ºliwe.
+- Udostƒôpnienie cel√≥w Makefile.PL check-only i skip-all.
+- Udostƒôpnienie cel√≥w Makefile check-only i install-only.
+- Wykorzystanie polecenia 'sudo', gdy jest ono dostƒôpne.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

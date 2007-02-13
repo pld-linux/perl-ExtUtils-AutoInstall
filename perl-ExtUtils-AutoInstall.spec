@@ -6,7 +6,7 @@
 %define		pdir	ExtUtils
 %define		pnam	AutoInstall
 Summary:	ExtUtils::AutoInstall - automatic install of dependencies via CPAN
-Summary(pl.UTF-8):   ExtUtils::AutoInstall - automatyczna instalacja zależności z CPAN
+Summary(pl.UTF-8):	ExtUtils::AutoInstall - automatyczna instalacja zależności z CPAN
 Name:		perl-ExtUtils-AutoInstall
 Version:	0.61
 Release:	1
